@@ -71,9 +71,7 @@ const getUpdatedLists = (
   if (list.accept === ItemTypes.SELECTED) {
     return moveToAvailable(list, dropItem);
   }
-  if (list.accept === ItemTypes.AVAILABLE) {
-    return moveToSelected(list, dropItem);
-  }
+  return moveToSelected(list, dropItem);
 };
 
 const ListContainer: React.FC<ListProps> = ({ items, accepts, setLists }) => {
