@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# POC - Drag N' Drop between two lists
 
 ![Demostration of drag and drop between two lists using react dnd](https://user-images.githubusercontent.com/44013819/109358099-f905cd80-7861-11eb-8acf-1dc2ad40470d.gif)
 
